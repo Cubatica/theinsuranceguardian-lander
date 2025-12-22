@@ -1,0 +1,172 @@
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import PartnerLogo from '@/components/PartnerLogo';
+import Link from 'next/link';
+
+export default function Home() {
+  return (
+    <>
+      <Header />
+      
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 text-white py-20 px-4 overflow-hidden">
+        {/* Car Background Image */}
+        <div className="absolute inset-0">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: 'url(/images/hero-car.jpg)',
+            }}
+          ></div>
+          {/* Gradient overlay for better text readability */}
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-700/80 via-blue-600/70 to-blue-500/80"></div>
+        </div>
+        {/* Pattern overlay */}
+        <div className="absolute inset-0 opacity-30" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' width='100' height='100' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 100 0 L 0 0 0 100' fill='none' stroke='rgba(255,255,255,0.1)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23grid)'/%3E%3C/svg%3E")`
+        }}></div>
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="max-w-7xl mx-auto relative z-10 grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              Find Affordable Auto Insurance
+            </h1>
+            <p className="text-xl md:text-2xl mb-8 text-blue-100">
+              Compare quotes from top providers in minutes. Free, no-obligation quotes.
+            </p>
+            
+            {/* Trust Elements */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg border border-white/30">
+                ✓ Free Quotes
+              </div>
+              <div className="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg border border-white/30">
+                ✓ No Obligation
+              </div>
+              <div className="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg border border-white/30">
+                ✓ Compare Rates
+              </div>
+            </div>
+            
+            {/* Hero CTA Button */}
+            <a
+              href="https://optimum-seniors.com"
+              className="inline-block px-12 py-4 bg-white text-blue-700 font-semibold rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-lg"
+            >
+              Get Your Free Quote
+            </a>
+          </div>
+          
+          {/* Hero Visual */}
+          <div className="hidden md:flex items-center justify-center relative">
+            <div className="relative w-full max-w-md">
+              <div className="absolute w-72 h-72 bg-white/15 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+              <div className="absolute w-48 h-48 bg-white/10 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+              <div className="relative z-10 flex flex-col items-center gap-4">
+                <div className="w-32 h-32 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border-4 border-white/30 shadow-2xl">
+                  <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" className="opacity-90">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  </svg>
+                </div>
+                <div className="flex gap-2 text-white text-sm">
+                  <span>✓ Secure</span>
+                  <span>✓ Fast</span>
+                  <span>✓ Free</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Partners Section */}
+      <section className="bg-white py-12 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-xl text-gray-500 text-center mb-8 font-medium">
+            Compare quotes from top insurance providers
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
+            <PartnerLogo name="Progressive" logo="/images/partners/Progressive-logo.png" />
+            <PartnerLogo name="Allstate" logo="/images/partners/Allstate-Logo.png" />
+            <PartnerLogo name="Liberty Mutual" logo="/images/partners/Liberty-Mutual-Logo.png" />
+            <PartnerLogo name="GEICO" logo="/images/partners/GEICO-logo.png" />
+            <PartnerLogo name="State Farm" logo="/images/partners/State-Farm-Logo.png" />
+            <PartnerLogo name="Nationwide" logo="/images/partners/Nationwide-logo.png" />
+          </div>
+          <p className="text-center text-gray-500 text-sm">+120 more insurance providers</p>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section id="services" className="bg-gray-50 py-16 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="section-title">Why Choose OptimumSeniors?</h2>
+          <p className="section-subtitle">Simple, fast, and free insurance comparison</p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { icon: '⚡', title: 'Fast Quotes', desc: 'Get quotes from multiple providers in minutes, not hours.' },
+              { icon: '💰', title: 'Save Money', desc: 'Compare rates and find the best coverage at the lowest price.' },
+              { icon: '🛡️', title: 'Trusted Providers', desc: 'We work with licensed, reputable insurance companies.' },
+              { icon: '✅', title: 'No Obligation', desc: 'Free quotes with no commitment required.' },
+            ].map((service) => (
+              <div
+                key={service.title}
+                className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all border border-gray-200 hover:border-blue-500"
+              >
+                <div className="text-5xl mb-4 text-center">{service.icon}</div>
+                <h3 className="text-xl font-semibold mb-2 text-center text-blue-700">{service.title}</h3>
+                <p className="text-gray-600 text-center">{service.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Section */}
+      <section id="about" className="bg-white py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="section-title">Find the Right Auto Insurance for You</h2>
+          <p className="text-lg text-gray-600 mb-6">
+            OptimumSeniors.com helps drivers compare auto insurance quotes from top providers. 
+            Our free service makes it easy to find affordable coverage that meets your needs.
+          </p>
+          <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-blue-700 mt-8">
+            <p className="text-sm text-gray-600 leading-relaxed">
+              <strong className="text-gray-800">Important:</strong> OptimumSeniors.com is an online insurance referral site. Insurance savings are not guaranteed. We match and directly connect consumers with insurance companies and agents across the US. Our site does not provide quotes directly to consumers and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and we do not represent any specific insurance provider or automobile company. All trademarks and copyrights are the property of their respective owners. All articles on this website are for information purposes only. This website contains affiliate marketing links and phone numbers which means that the operators of this site may get paid commission on sales of the products or services advertised. OptimumSeniors.com provides access to independent auto insurance services and acts as an affiliate to these services. Your access to this website is subject to its{' '}
+              <Link href="/terms" className="text-blue-700 underline">
+                terms of use
+              </Link>
+              .
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section id="contact" className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 text-white py-20 px-4 overflow-hidden">
+        <div className="absolute inset-0 opacity-20" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='120' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='hex' width='120' height='120' patternUnits='userSpaceOnUse'%3E%3Cpolygon points='60,10 110,35 110,85 60,110 10,85 10,35' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='120' height='120' fill='url(%23hex)'/%3E%3C/svg%3E")`
+        }}></div>
+        <div className="max-w-2xl mx-auto relative z-10 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Get Your Free Quote Now</h2>
+          <p className="text-xl mb-8 text-blue-100">Compare rates from top insurance providers in minutes</p>
+          <a
+            href="https://optimum-seniors.com"
+            className="inline-block px-12 py-4 bg-white text-blue-700 font-semibold rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-lg mb-4"
+          >
+            Get My Free Quote
+          </a>
+          <p className="text-sm text-blue-100">Free • No Obligation • Compare Multiple Providers</p>
+          <p className="text-sm text-blue-100 mt-4">
+            Call us at <a href="tel:+17045551234" className="underline font-semibold">(704) 555-1234</a> or email us at <a href="mailto:info@optimum-seniors.com" className="underline font-semibold">info@optimum-seniors.com</a>
+          </p>
+        </div>
+      </section>
+
+      <Footer />
+    </>
+  );
+}
+
