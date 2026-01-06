@@ -25,7 +25,7 @@ export default function AutoLanderGG() {
   return (
     <>
       {/* RedTrack Body Script */}
-      {/* <Script
+      {/* { <Script
         id="redtrack-body"
         strategy="afterInteractive"
         src="https://clk.optimum-seniors.com/unilpclick.js?attribution=lastpaid&cookiedomain=&cookieduration=90&defaultcampaignid=69418b8384e311b88682939b&regviewonce=false"
@@ -81,7 +81,7 @@ export default function AutoLanderGG() {
               </Link>
             </nav>
             <a
-              // href="https://optimum-seniors.com"
+              href="https://clk.optimum-seniors.com/click
               target="_top"
               className="px-4 py-2 md:px-8 md:py-3 bg-[#FF6D68] text-white font-semibold rounded-full hover:bg-[#CF2169] transition-colors duration-300 text-xs md:text-base whitespace-nowrap flex-shrink-0"
             >
@@ -155,7 +155,7 @@ export default function AutoLanderGG() {
                   </h1>
                 </div>
                 <a
-                  // href="https://optimum-seniors.com"
+                  href="https://clk.optimum-seniors.com/click"
                   target="_top"
                   className="inline-block w-full text-center px-8 py-4 bg-[#FF6D68] text-white font-semibold rounded-full hover:bg-[#CF2169] transition-colors duration-300 text-lg shadow-lg hover:shadow-xl"
                 >
@@ -365,7 +365,7 @@ export default function AutoLanderGG() {
               Join the 300,000+ driver who saved money by shopping around with OptimumSeniors!
             </p>
             <a
-              // href="https://optimum-seniors.com"
+              href="https://clk.optimum-seniors.com/click"
               target="_top"
               className="inline-block px-12 py-4 bg-[#CF2169] text-white font-semibold rounded-full hover:bg-[#1F2EFF] transition-colors duration-300 text-lg shadow-lg"
             >

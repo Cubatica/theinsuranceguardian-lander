@@ -13,8 +13,8 @@ export default function AutoLanderGGLayout({
     // This is expected and occurs because RedTrack server doesn't send proper CORS headers.
     // The script has fallback logic to use rtkcid from URL if XHR fails.
     const script = document.createElement('script');
-    // script.src = 'https://clk.optimum-seniors.com/track.js?rtkcmpid=6949ceb10ee5f12c0fba2272';
-    // script.async = true;
+    script.src = 'https://clk.optimum-seniors.com/track.js?rtkcmpid=6949ceb10ee5f12c0fba2272';
+    //script.async = true;
     script.id = 'redtrack-head';
     
     // Silently handle script loading errors
