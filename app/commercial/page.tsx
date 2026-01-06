@@ -138,7 +138,7 @@ export default function AutoLanderGG() {
             }}
           ></div>
           {/* Overlay for better readability */}
-          <div className="absolute inset-0 bg-white/60"></div>
+          <div className="absolute inset-0 bg-white/60 pointer-events-none"></div>
           <div className="max-w-7xl mx-auto relative z-10">
             <div className="flex justify-start">
               {/* CTA Box Container */}
@@ -176,7 +176,7 @@ export default function AutoLanderGG() {
             }}
           ></div>
           {/* Overlay for better text readability */}
-          <div className="absolute inset-0 bg-white/80"></div>
+          <div className="absolute inset-0 bg-white/80 pointer-events-none"></div>
           <div className="max-w-7xl mx-auto relative z-10">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {/* Left: Phone Image */}
