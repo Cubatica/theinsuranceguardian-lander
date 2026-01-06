@@ -14,7 +14,7 @@ export default function AutoLanderGGLayout({
     // The script has fallback logic to use rtkcid from URL if XHR fails.
     const script = document.createElement('script');
     script.src = 'https://clk.optimum-seniors.com/track.js?rtkcmpid=6949ceb10ee5f12c0fba2272';
-    //script.async = true;
+    script.async = true;
     script.id = 'redtrack-head';
     
     // Silently handle script loading errors

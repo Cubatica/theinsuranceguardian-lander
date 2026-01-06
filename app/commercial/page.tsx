@@ -81,7 +81,7 @@ export default function AutoLanderGG() {
               </Link>
             </nav>
             <a
-              href="https://clk.optimum-seniors.com/click
+              href="https://clk.optimum-seniors.com/click"
               target="_top"
               className="px-4 py-2 md:px-8 md:py-3 bg-[#FF6D68] text-white font-semibold rounded-full hover:bg-[#CF2169] transition-colors duration-300 text-xs md:text-base whitespace-nowrap flex-shrink-0"
             >
