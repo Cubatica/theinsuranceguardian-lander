@@ -47,7 +47,7 @@ export default function AutoLanderGG() {
                 className="block flex-shrink-0"
               >
                 <img
-                  src="/theinsuranceguardian-logo.svg"
+                  src="/theinsuranceguardian-logo-v2.svg"
                   alt="The Insurance Guardian logo"
                   className="h-8 md:h-12 w-auto"
                   loading="lazy"

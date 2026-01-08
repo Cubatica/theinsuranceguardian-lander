@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   keywords: "auto insurance, car insurance, insurance quotes, affordable insurance, compare insurance rates",
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png" },
+      { url: "/theinsuranceguardian-favicon.png", type: "image/png" },
     ],
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    shortcut: "/theinsuranceguardian-favicon.png",
+    apple: "/theinsuranceguardian-favicon.png",
   },
 };
 
