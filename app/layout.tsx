@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OptimumSeniors.com - Reliable Auto Insurance Quotes",
-  description: "Get reliable auto insurance. Compare quotes, find affordable coverage, and protect your vehicle with OptimumSeniors.com",
+  title: "The Insurance Guardian.com - Reliable Auto Insurance Quotes",
+  description: "Get reliable auto insurance. Compare quotes, find affordable coverage, and protect your vehicle with The Insurance Guardian.com",
   keywords: "auto insurance, car insurance, insurance quotes, affordable insurance, compare insurance rates",
   icons: {
     icon: [

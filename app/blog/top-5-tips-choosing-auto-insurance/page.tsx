@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Top 5 Tips for Choosing the Right Auto Insurance - OptimumSeniors.com',
+  title: 'Top 5 Tips for Choosing the Right Auto Insurance - The Insurance Guardian.com',
   description: 'Learn essential tips to help you choose the right auto insurance coverage for your needs.',
 };
 
@@ -76,7 +76,7 @@ export default function BlogPost1() {
               <h2 className="text-2xl font-bold mb-4">Ready to Find Your Perfect Coverage?</h2>
               <p className="mb-6">Get a free quote today and compare rates from multiple providers</p>
               <a
-                href="https://optimum-seniors.com"
+                href="https://theinsuranceguardian.com"
                 className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
               >
                 Get Your Free Quote

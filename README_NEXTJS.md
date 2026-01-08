@@ -1,6 +1,6 @@
-# OptimumSeniors.com - Next.js Version
+# The Insurance Guardian.com - Next.js Version
 
-This is the modern Next.js version of the OptimumSeniors.com website, built with TypeScript and Tailwind CSS.
+This is the modern Next.js version of the The Insurance Guardian.com website, built with TypeScript and Tailwind CSS.
 
 ## Tech Stack
 

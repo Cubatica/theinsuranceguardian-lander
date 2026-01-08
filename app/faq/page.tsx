@@ -4,8 +4,8 @@ import FAQAccordion from '@/components/FAQAccordion';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'FAQ - Frequently Asked Questions - OptimumSeniors.com',
-  description: 'Frequently Asked Questions about auto insurance - OptimumSeniors.com',
+  title: 'FAQ - Frequently Asked Questions - The Insurance Guardian.com',
+  description: 'Frequently Asked Questions about auto insurance - The Insurance Guardian.com',
 };
 
 export default function FAQPage() {
@@ -30,7 +30,7 @@ export default function FAQPage() {
                 Call (704) 555-1234
               </a>
               <a
-                href="mailto:info@optimum-seniors.com"
+                href="mailto:info@theinsuranceguardian.com"
                 className="px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg border-2 border-blue-700 hover:bg-blue-50 transition-colors"
               >
                 Email Us

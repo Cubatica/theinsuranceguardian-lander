@@ -1,8 +1,8 @@
 
-# OptimumSeniors.com Project Plan & Requirements
+# The Insurance Guardian.com Project Plan & Requirements
 
 ## Project Overview
-**Project Name:** OptimumSeniors.com Auto Insurance Site  
+**Project Name:** The Insurance Guardian.com Auto Insurance Site  
 **Owner / Lead:** Christian Encinas  
 **Project Goal:** Build a professional, trustworthy auto-insurance website to satisfy Google compliance, capture leads, and establish credibility.
 
@@ -62,7 +62,7 @@
 
 ## Folder Structure
 ```
-OptimumSeniors/
+The Insurance Guardian/
 ├─ index.html
 ├─ pages/
 │  ├─ terms.html
@@ -108,7 +108,7 @@ OptimumSeniors/
 - Example snippet:  
 ```html
 <h2>Terms & Conditions</h2>
-<p>By using OptimumSeniors.com, you agree to the following terms...</p>
+<p>By using The Insurance Guardian.com, you agree to the following terms...</p>
 ```
 
 **Privacy Policy (`pages/privacy.html`)**
@@ -118,7 +118,7 @@ OptimumSeniors/
 - Example snippet:  
 ```html
 <h2>Privacy Policy</h2>
-<p>OptimumSeniors.com collects your information solely to provide quotes and services...</p>
+<p>The Insurance Guardian.com collects your information solely to provide quotes and services...</p>
 ```
 
 ---
@@ -149,7 +149,7 @@ OptimumSeniors/
 ### 4. Generic Auto Insurance Landing Pages
 - Notes: Strong hero + lead form, minimal design, optional blog or content sections for credibility.
 
-**Takeaways for OptimumSeniors:**  
+**Takeaways for The Insurance Guardian:**  
 - Hero / lead form above-the-fold  
 - Clean, professional layout  
 - Trust elements (T&C, Privacy Policy, About)  
@@ -165,14 +165,14 @@ OptimumSeniors/
 3. **Content Creation:** T&C, Privacy Policy, optional blog posts.  
 4. **Lead Capture Form:** Include Name, Email, Phone, ZIP.  
 5. **Testing & Review:** Check links, responsiveness, SSL, form submissions.  
-6. **Deployment:** Upload to optimum-seniors.com hosting.  
+6. **Deployment:** Upload to theinsuranceguardian.com hosting.  
 7. **Final Verification:** Confirm Google trust metrics, functionality, and credibility.
 
 ---
 
 ## Resources / Tools
 - Cursor.com (AI-assisted code & content generation)  
-- Domain & Hosting (optimum-seniors.com)  
+- Domain & Hosting (theinsuranceguardian.com)  
 - SSL Certificate (HTTPS)  
 - Optional Editor (VS Code, Sublime, etc.)
 

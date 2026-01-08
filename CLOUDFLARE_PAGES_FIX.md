@@ -9,7 +9,7 @@ Cloudflare Pages is trying to run a deploy command (`npx wrangler deploy`), but 
 ### Step 1: Remove the Deploy Command
 
 1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com/)
-2. Navigate to **Pages** → Your project (`optimum-seniors`)
+2. Navigate to **Pages** → Your project (`theinsuranceguardian`)
 3. Click **Settings** → **Builds & deployments**
 4. Scroll down to find **Build configuration**
 5. Look for **Deploy command** field
@@ -54,5 +54,5 @@ After removing the deploy command, you should see:
 ✓ Success: Deployment complete
 ```
 
-Your site will be live at: `https://optimum-seniors.pages.dev` (or your custom domain)
+Your site will be live at: `https://theinsuranceguardian.pages.dev` (or your custom domain)
 

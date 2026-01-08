@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Blog - Auto Insurance Tips & Guides - OptimumSeniors.com',
+  title: 'Blog - Auto Insurance Tips & Guides - The Insurance Guardian.com',
   description: 'Helpful articles and tips about auto insurance',
 };
 

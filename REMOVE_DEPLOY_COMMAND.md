@@ -20,7 +20,7 @@ Executing user deploy command: npx wrangler deploy  ← THIS NEEDS TO BE REMOVED
 
 ### Step 2: Select Your Project
 
-1. Find and click on your project: **optimum-seniors**
+1. Find and click on your project: **theinsuranceguardian**
 
 ### Step 3: Go to Settings
 
@@ -87,7 +87,7 @@ If you can't find the deploy command field:
 ## Quick Checklist
 
 - [ ] Went to Cloudflare Dashboard → Pages
-- [ ] Selected optimum-seniors project
+- [ ] Selected theinsuranceguardian project
 - [ ] Went to Settings → Builds & deployments
 - [ ] Found "Deploy command" field
 - [ ] Deleted everything in "Deploy command" field

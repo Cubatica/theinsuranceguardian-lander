@@ -6,7 +6,7 @@ Follow these steps to connect your GitHub repository to Cloudflare Pages.
 
 1. Go to [GitHub](https://github.com) and sign in
 2. Click the **+** icon in the top right → **New repository**
-3. Repository name: `optimum-seniors` (or your preferred name)
+3. Repository name: `theinsuranceguardian` (or your preferred name)
 4. Description: "Auto insurance website - Next.js"
 5. Choose **Private** or **Public** (your preference)
 6. **DO NOT** initialize with README, .gitignore, or license (we already have these)
@@ -18,7 +18,7 @@ After creating the repository, GitHub will show you commands. Use these:
 
 ```bash
 # Add the remote repository (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/optimum-seniors.git
+git remote add origin https://github.com/YOUR_USERNAME/theinsuranceguardian.git
 
 # Rename branch to main (if needed)
 git branch -M main
@@ -30,7 +30,7 @@ git push -u origin main
 **Alternative: Using SSH (if you have SSH keys set up)**
 
 ```bash
-git remote add origin git@github.com:YOUR_USERNAME/optimum-seniors.git
+git remote add origin git@github.com:YOUR_USERNAME/theinsuranceguardian.git
 git branch -M main
 git push -u origin main
 ```
@@ -43,14 +43,14 @@ git push -u origin main
 4. Click **Create a project**
 5. Click **Connect to Git**
 6. Authorize Cloudflare to access your GitHub account (if prompted)
-7. Select your repository: `optimum-seniors`
+7. Select your repository: `theinsuranceguardian`
 8. Click **Begin setup**
 
 ## Step 4: Configure Build Settings
 
 In the build configuration:
 
-- **Project name**: `optimum-seniors` (or your preferred name)
+- **Project name**: `theinsuranceguardian` (or your preferred name)
 - **Production branch**: `main` (or `master` if you're using that)
 - **Framework preset**: `Next.js (Static HTML Export)`
 - **Build command**: `npm run build`
@@ -77,7 +77,7 @@ If you need environment variables:
 1. After deployment, go to your project settings
 2. Click **Custom domains**
 3. Click **Set up a custom domain**
-4. Enter your domain (e.g., `optimum-seniors.com`)
+4. Enter your domain (e.g., `theinsuranceguardian.com`)
 5. Follow DNS setup instructions
 6. Cloudflare will automatically configure SSL/TLS
 

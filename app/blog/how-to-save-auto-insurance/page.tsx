@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'How to Save on Auto Insurance - OptimumSeniors.com',
+  title: 'How to Save on Auto Insurance - The Insurance Guardian.com',
   description: 'Practical tips to help you save money on auto insurance while maintaining the coverage you need.',
 };
 
@@ -101,7 +101,7 @@ export default function BlogPost2() {
               <h2 className="text-2xl font-bold mb-4">Start Saving Today</h2>
               <p className="mb-6">Compare quotes from multiple providers and find the best rate for your needs</p>
               <a
-                href="https://optimum-seniors.com"
+                href="https://theinsuranceguardian.com"
                 className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
               >
                 Get Your Free Quote

@@ -10,7 +10,7 @@ export default function AutoLanderGG() {
 
   // Set page title and meta description
   useEffect(() => {
-    document.title = "Commercial Quotes - OptimumSeniors.com";
+    document.title = "Commercial Quotes - The Insurance Guardian.com";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', "Get a FREE commercial quote. Compare plans and save up to 50% on your business insurance.");
@@ -28,7 +28,7 @@ export default function AutoLanderGG() {
       {/* { <Script
         id="redtrack-body"
         strategy="afterInteractive"
-        src="https://clk.optimum-seniors.com/unilpclick.js?attribution=lastpaid&cookiedomain=&cookieduration=90&defaultcampaignid=69418b8384e311b88682939b&regviewonce=false"
+        src="https://clk.theinsuranceguardian.com/unilpclick.js?attribution=lastpaid&cookiedomain=&cookieduration=90&defaultcampaignid=69418b8384e311b88682939b&regviewonce=false"
       /> */}
       <div className="min-h-screen bg-white">
       {/* Background Sections */}
@@ -47,8 +47,8 @@ export default function AutoLanderGG() {
                 className="block flex-shrink-0"
               >
                 <img
-                  src="/optimum-seniors-logo.svg"
-                  alt="OptimumSeniors logo"
+                  src="/theinsuranceguardian-logo.svg"
+                  alt="The Insurance Guardian logo"
                   className="h-8 md:h-12 w-auto"
                   loading="lazy"
                 />
@@ -81,7 +81,7 @@ export default function AutoLanderGG() {
               </Link>
             </nav>
             <a
-              href="https://clk.optimum-seniors.com/click"
+              href="https://clk.theinsuranceguardian.com/click"
               target="_top"
               className="px-4 py-2 md:px-8 md:py-3 bg-[#FF6D68] text-white font-semibold rounded-full hover:bg-[#CF2169] transition-colors duration-300 text-xs md:text-base whitespace-nowrap flex-shrink-0"
             >
@@ -155,7 +155,7 @@ export default function AutoLanderGG() {
                   </h1>
                 </div>
                 <a
-                  href="https://clk.optimum-seniors.com/click"
+                  href="https://clk.theinsuranceguardian.com/click"
                   target="_top"
                   className="inline-block w-full text-center px-8 py-4 bg-[#FF6D68] text-white font-semibold rounded-full hover:bg-[#CF2169] transition-colors duration-300 text-lg shadow-lg hover:shadow-xl"
                 >
@@ -234,14 +234,14 @@ export default function AutoLanderGG() {
           </div>
         </section>
 
-        {/* Why OptimumSeniors Section */}
+        {/* Why The Insurance Guardian Section */}
         <section className="py-16 px-4 bg-white">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-4">
-              WHY OPTIMUMSENIORS.COM
+              WHY THEINSURANCEGUARDIAN.COM
             </h2>
             <h3 className="text-3xl md:text-5xl font-bold text-gray-900 text-center mb-12">
-              Why compare business quotes with OptimumSeniors?
+              Why compare business quotes with The Insurance Guardian?
             </h3>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -362,10 +362,10 @@ export default function AutoLanderGG() {
               Get a FREE commercial quote
             </h3>
             <p className="text-lg text-gray-700 mb-8">
-              Join the 300,000+ driver who saved money by shopping around with OptimumSeniors!
+              Join the 300,000+ driver who saved money by shopping around with The Insurance Guardian!
             </p>
             <a
-              href="https://clk.optimum-seniors.com/click"
+              href="https://clk.theinsuranceguardian.com/click"
               target="_top"
               className="inline-block px-12 py-4 bg-[#CF2169] text-white font-semibold rounded-full hover:bg-[#1F2EFF] transition-colors duration-300 text-lg shadow-lg"
             >

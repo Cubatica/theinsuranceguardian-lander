@@ -12,8 +12,8 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
         <Link href="/home" className="flex items-center">
           <Image
-            src="/optimum-seniors-logo.svg"
-            alt="OptimumSeniors Logo"
+            src="/theinsuranceguardian-logo.svg"
+            alt="The Insurance Guardian Logo"
             width={180}
             height={60}
             className="h-10 w-auto"

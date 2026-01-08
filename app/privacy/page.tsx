@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Privacy Policy - OptimumSeniors.com',
-  description: 'Privacy Policy for OptimumSeniors.com - Learn how we protect your personal information.',
+  title: 'Privacy Policy - The Insurance Guardian.com',
+  description: 'Privacy Policy for The Insurance Guardian.com - Learn how we protect your personal information.',
 };
 
 export default function PrivacyPage() {
@@ -20,7 +20,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">1. Introduction</h2>
               <p className="text-gray-600 mb-4">
-                Welcome to OptimumSeniors.com ("we," "our," or "us"). We are committed to protecting your privacy and ensuring you have a positive experience on our website. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
+                Welcome to The Insurance Guardian.com ("we," "our," or "us"). We are committed to protecting your privacy and ensuring you have a positive experience on our website. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
               </p>
             </section>
 
@@ -120,9 +120,9 @@ export default function PrivacyPage() {
                 If you have questions or concerns about this Privacy Policy, please contact us:
               </p>
               <div className="bg-blue-50 p-4 rounded-lg">
-                <p className="text-gray-700"><strong>OptimumSeniors.com</strong></p>
+                <p className="text-gray-700"><strong>The Insurance Guardian.com</strong></p>
                 <p className="text-gray-700">Phone: <a href="tel:+17045551234" className="text-blue-700 hover:underline">(704) 555-1234</a></p>
-                <p className="text-gray-700">Email: <a href="mailto:info@optimum-seniors.com" className="text-blue-700 hover:underline">info@optimum-seniors.com</a></p>
+                <p className="text-gray-700">Email: <a href="mailto:info@theinsuranceguardian.com" className="text-blue-700 hover:underline">info@theinsuranceguardian.com</a></p>
               </div>
             </section>
           </div>

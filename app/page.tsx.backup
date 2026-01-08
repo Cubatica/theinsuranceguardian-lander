@@ -51,7 +51,7 @@ export default function Home() {
             
             {/* Hero CTA Button */}
             <a
-              href="https://optimum-seniors.com"
+              href="https://theinsuranceguardian.com"
               className="inline-block px-12 py-4 bg-white text-blue-700 font-semibold rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-lg"
             >
               Get Your Free Quote
@@ -101,7 +101,7 @@ export default function Home() {
       {/* Benefits Section */}
       <section id="services" className="bg-gray-50 py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="section-title">Why Choose OptimumSeniors?</h2>
+          <h2 className="section-title">Why Choose The Insurance Guardian?</h2>
           <p className="section-subtitle">Simple, fast, and free insurance comparison</p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -129,12 +129,12 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-title">Find the Right Auto Insurance for You</h2>
           <p className="text-lg text-gray-600 mb-6">
-            OptimumSeniors.com helps drivers compare auto insurance quotes from top providers. 
+            The Insurance Guardian.com helps drivers compare auto insurance quotes from top providers. 
             Our free service makes it easy to find affordable coverage that meets your needs.
           </p>
           <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-blue-700 mt-8">
             <p className="text-sm text-gray-600 leading-relaxed">
-              <strong className="text-gray-800">Important:</strong> OptimumSeniors.com is an online insurance referral site. Insurance savings are not guaranteed. We match and directly connect consumers with insurance companies and agents across the US. Our site does not provide quotes directly to consumers and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and we do not represent any specific insurance provider or automobile company. All trademarks and copyrights are the property of their respective owners. All articles on this website are for information purposes only. This website contains affiliate marketing links and phone numbers which means that the operators of this site may get paid commission on sales of the products or services advertised. OptimumSeniors.com provides access to independent auto insurance services and acts as an affiliate to these services. Your access to this website is subject to its{' '}
+              <strong className="text-gray-800">Important:</strong> The Insurance Guardian.com is an online insurance referral site. Insurance savings are not guaranteed. We match and directly connect consumers with insurance companies and agents across the US. Our site does not provide quotes directly to consumers and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and we do not represent any specific insurance provider or automobile company. All trademarks and copyrights are the property of their respective owners. All articles on this website are for information purposes only. This website contains affiliate marketing links and phone numbers which means that the operators of this site may get paid commission on sales of the products or services advertised. The Insurance Guardian.com provides access to independent auto insurance services and acts as an affiliate to these services. Your access to this website is subject to its{' '}
               <Link href="/terms" className="text-blue-700 underline">
                 terms of use
               </Link>
@@ -153,14 +153,14 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Get Your Free Quote Now</h2>
           <p className="text-xl mb-8 text-blue-100">Compare rates from top insurance providers in minutes</p>
           <a
-            href="https://optimum-seniors.com"
+            href="https://theinsuranceguardian.com"
             className="inline-block px-12 py-4 bg-white text-blue-700 font-semibold rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-lg mb-4"
           >
             Get My Free Quote
           </a>
           <p className="text-sm text-blue-100">Free • No Obligation • Compare Multiple Providers</p>
           <p className="text-sm text-blue-100 mt-4">
-            Call us at <a href="tel:+17045551234" className="underline font-semibold">(704) 555-1234</a> or email us at <a href="mailto:info@optimum-seniors.com" className="underline font-semibold">info@optimum-seniors.com</a>
+            Call us at <a href="tel:+17045551234" className="underline font-semibold">(704) 555-1234</a> or email us at <a href="mailto:info@theinsuranceguardian.com" className="underline font-semibold">info@theinsuranceguardian.com</a>
           </p>
         </div>
       </section>

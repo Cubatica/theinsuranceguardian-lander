@@ -36,7 +36,7 @@ const faqData: FAQCategory[] = [
       },
       {
         question: 'How do I get a free quote?',
-        answer: 'Getting a free quote is easy! Contact us by phone at (704) 555-1234 or email at info@optimum-seniors.com. We\'ll connect you with insurance providers who can offer you competitive quotes based on your information. The process takes just a few minutes, and there\'s no obligation to purchase.',
+        answer: 'Getting a free quote is easy! Contact us by phone at (704) 555-1234 or email at info@theinsuranceguardian.com. We\'ll connect you with insurance providers who can offer you competitive quotes based on your information. The process takes just a few minutes, and there\'s no obligation to purchase.',
       },
       {
         question: 'How long does it take to get a quote?',
@@ -166,19 +166,19 @@ const faqData: FAQCategory[] = [
     ],
   },
   {
-    title: 'About OptimumSeniors',
+    title: 'About The Insurance Guardian',
     items: [
       {
-        question: 'Is OptimumSeniors.com an insurance company?',
-        answer: 'No, OptimumSeniors.com is not an insurance company. We are an online insurance referral site. We match and directly connect consumers with insurance companies and agents across the US. Our site does not provide quotes directly to consumers and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and we do not represent any specific insurance provider or automobile company.',
+        question: 'Is The Insurance Guardian.com an insurance company?',
+        answer: 'No, The Insurance Guardian.com is not an insurance company. We are an online insurance referral site. We match and directly connect consumers with insurance companies and agents across the US. Our site does not provide quotes directly to consumers and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and we do not represent any specific insurance provider or automobile company.',
       },
       {
-        question: 'Is there a fee to use OptimumSeniors.com?',
-        answer: 'No, our referral service is free for users. There are no fees to use our platform. This website contains affiliate marketing links and phone numbers which means that the operators of this site may get paid commission on sales of the products or services advertised. OptimumSeniors.com provides access to independent auto insurance services and acts as an affiliate to these services. This does not affect the quotes you receive or the rates you\'re offered.',
+        question: 'Is there a fee to use The Insurance Guardian.com?',
+        answer: 'No, our referral service is free for users. There are no fees to use our platform. This website contains affiliate marketing links and phone numbers which means that the operators of this site may get paid commission on sales of the products or services advertised. The Insurance Guardian.com provides access to independent auto insurance services and acts as an affiliate to these services. This does not affect the quotes you receive or the rates you\'re offered.',
       },
       {
-        question: 'How do I contact OptimumSeniors.com?',
-        answer: 'You can reach us by email at info@optimum-seniors.com or by phone at (704) 555-1234. We\'re here to help you find the right auto insurance coverage. If you have questions about quotes, coverage options, or our services, don\'t hesitate to reach out.',
+        question: 'How do I contact The Insurance Guardian.com?',
+        answer: 'You can reach us by email at info@theinsuranceguardian.com or by phone at (704) 555-1234. We\'re here to help you find the right auto insurance coverage. If you have questions about quotes, coverage options, or our services, don\'t hesitate to reach out.',
       },
     ],
   },

@@ -1,4 +1,4 @@
-# OptimumSeniors.com - Auto Insurance Website
+# The Insurance Guardian.com - Auto Insurance Website
 
 A modern Next.js website for auto insurance lead generation, built with TypeScript and Tailwind CSS.
 
@@ -82,5 +82,5 @@ See [DEPLOY_CLOUDFLARE.md](./DEPLOY_CLOUDFLARE.md) for detailed deployment instr
 
 ## License
 
-Private project for OptimumSeniors.com
+Private project for The Insurance Guardian.com
 

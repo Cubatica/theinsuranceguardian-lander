@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Terms & Conditions - OptimumSeniors.com',
-  description: 'Terms and Conditions for OptimumSeniors.com - Read our terms of service and usage policies.',
+  title: 'Terms & Conditions - The Insurance Guardian.com',
+  description: 'Terms and Conditions for The Insurance Guardian.com - Read our terms of service and usage policies.',
 };
 
 export default function TermsPage() {
@@ -20,21 +20,21 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-600 mb-4">
-                By accessing and using OptimumSeniors.com ("the Website"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+                By accessing and using The Insurance Guardian.com ("the Website"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">2. Description of Service</h2>
               <p className="text-gray-600 mb-4">
-                OptimumSeniors.com is an online insurance referral service. We match and directly connect consumers with insurance companies and agents across the United States. Our website does not provide insurance quotes directly to consumers and is not affiliated with any specific insurance carrier. We do not provide insurance and we do not represent any specific insurance provider or automobile company.
+                The Insurance Guardian.com is an online insurance referral service. We match and directly connect consumers with insurance companies and agents across the United States. Our website does not provide insurance quotes directly to consumers and is not affiliated with any specific insurance carrier. We do not provide insurance and we do not represent any specific insurance provider or automobile company.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">3. Affiliate Disclosure</h2>
               <p className="text-gray-600 mb-4">
-                This website contains affiliate marketing links and phone numbers, which means that the operators of this site may receive commission on sales of the products or services advertised. OptimumSeniors.com provides access to independent auto insurance services and acts as an affiliate to these services.
+                This website contains affiliate marketing links and phone numbers, which means that the operators of this site may receive commission on sales of the products or services advertised. The Insurance Guardian.com provides access to independent auto insurance services and acts as an affiliate to these services.
               </p>
             </section>
 
@@ -62,14 +62,14 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">6. Intellectual Property</h2>
               <p className="text-gray-600 mb-4">
-                All content on this website, including text, graphics, logos, images, and software, is the property of OptimumSeniors.com or its content suppliers and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, or create derivative works from any content without our express written permission.
+                All content on this website, including text, graphics, logos, images, and software, is the property of The Insurance Guardian.com or its content suppliers and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, or create derivative works from any content without our express written permission.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">7. Limitation of Liability</h2>
               <p className="text-gray-600 mb-4">
-                OptimumSeniors.com shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the website. We are not responsible for the accuracy, completeness, or reliability of any information provided by third-party insurance providers.
+                The Insurance Guardian.com shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the website. We are not responsible for the accuracy, completeness, or reliability of any information provided by third-party insurance providers.
               </p>
             </section>
 
@@ -90,7 +90,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">10. Indemnification</h2>
               <p className="text-gray-600 mb-4">
-                You agree to indemnify and hold harmless OptimumSeniors.com, its officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses arising out of your use of the website or violation of these terms.
+                You agree to indemnify and hold harmless The Insurance Guardian.com, its officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses arising out of your use of the website or violation of these terms.
               </p>
             </section>
 
@@ -121,9 +121,9 @@ export default function TermsPage() {
                 If you have any questions about these Terms & Conditions, please contact us:
               </p>
               <div className="bg-blue-50 p-4 rounded-lg">
-                <p className="text-gray-700"><strong>OptimumSeniors.com</strong></p>
+                <p className="text-gray-700"><strong>The Insurance Guardian.com</strong></p>
                 <p className="text-gray-700">Phone: <a href="tel:+17045551234" className="text-blue-700 hover:underline">(704) 555-1234</a></p>
-                <p className="text-gray-700">Email: <a href="mailto:info@optimum-seniors.com" className="text-blue-700 hover:underline">info@optimum-seniors.com</a></p>
+                <p className="text-gray-700">Email: <a href="mailto:info@theinsuranceguardian.com" className="text-blue-700 hover:underline">info@theinsuranceguardian.com</a></p>
               </div>
             </section>
           </div>
