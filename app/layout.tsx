@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     shortcut: "/theinsuranceguardian-favicon.png",
     apple: "/theinsuranceguardian-favicon.png",
   },
+  other: {
+    "facebook-domain-verification": "tducol44o8ag8jz9l2i9f9im34qo4q",
+  },
 };
 
 export default function RootLayout({
