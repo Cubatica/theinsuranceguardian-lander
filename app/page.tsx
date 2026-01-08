@@ -51,7 +51,7 @@ export default function Home() {
             
             {/* Hero CTA Button */}
             <a
-              href="https://theinsuranceguardian.com"
+             // href="https://theinsuranceguardian.com"
               className="inline-block px-12 py-4 bg-white text-blue-700 font-semibold rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-lg"
             >
               Get Your Free Quote
@@ -153,7 +153,7 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Get Your Free Quote Now</h2>
           <p className="text-xl mb-8 text-blue-100">Compare rates from top insurance providers in minutes</p>
           <a
-            href="https://theinsuranceguardian.com"
+           // href="https://theinsuranceguardian.com"
             className="inline-block px-12 py-4 bg-white text-blue-700 font-semibold rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-lg mb-4"
           >
             Get My Free Quote
