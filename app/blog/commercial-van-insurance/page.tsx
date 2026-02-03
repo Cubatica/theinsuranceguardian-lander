@@ -1,13 +1,12 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import RedTrackCTALink from '@/components/RedTrackCTALink';
 
 export const metadata = {
   title: 'Commercial Van Insurance: Your Business Lifeline - The Insurance Guardian.com',
   description: 'Commercial van insurance isn\'t just a nice-to-have—it\'s your lifeline. Protect what you\'ve built with the right coverage.',
 };
-
-const CTA_URL = 'https://clk.theinsuranceguardian.com/click';
 
 export default function CommercialVanInsurancePost() {
   return (
@@ -41,14 +40,9 @@ export default function CommercialVanInsurancePost() {
             <div className="bg-blue-700 text-white p-8 rounded-lg mt-12 mb-8">
               <h2 className="text-2xl font-bold mb-4">Get Your Business Covered</h2>
               <p className="mb-6">Compare commercial insurance quotes and protect what you&apos;ve built.</p>
-              <a
-                href={CTA_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
-              >
+              <RedTrackCTALink className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
                 Visit Get Business Coverage
-              </a>
+              </RedTrackCTALink>
             </div>
 
             <div className="flex flex-col sm:flex-row justify-between items-center pt-8 border-t border-gray-300">

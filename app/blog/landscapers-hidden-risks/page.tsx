@@ -1,13 +1,12 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import RedTrackCTALink from '@/components/RedTrackCTALink';
 
 export const metadata = {
   title: '3 Hidden Risks Landscapers Face That Your Insurance Won\'t Cover - The Insurance Guardian.com',
   description: 'Riding mowers, subcontractors, and underinsured equipment—what landscapers need to know about commercial insurance.',
 };
-
-const CTA_URL = 'https://clk.theinsuranceguardian.com/click';
 
 export default function LandscapersHiddenRisksPost() {
   return (
@@ -44,14 +43,9 @@ export default function LandscapersHiddenRisksPost() {
 
             <div className="bg-blue-700 text-white p-8 rounded-lg mt-12 mb-8">
               <h2 className="text-2xl font-bold mb-4">Go To</h2>
-              <a
-                href={CTA_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
-              >
+              <RedTrackCTALink className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
                 Get Business Coverage
-              </a>
+              </RedTrackCTALink>
             </div>
 
             <div className="flex flex-col sm:flex-row justify-between items-center pt-8 border-t border-gray-300">

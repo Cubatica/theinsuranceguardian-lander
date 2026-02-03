@@ -1,13 +1,12 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import RedTrackCTALink from '@/components/RedTrackCTALink';
 
 export const metadata = {
   title: 'When Plumbing Work Turns Into a Lawsuit: Protect Your Business - The Insurance Guardian.com',
   description: 'A single mishap can cost thousands. Get the right plumber insurance before it\'s too late.',
 };
-
-const CTA_URL = 'https://clk.theinsuranceguardian.com/click';
 
 export default function PlumbersInsurancePost() {
   return (
@@ -38,14 +37,9 @@ export default function PlumbersInsurancePost() {
 
             <div className="bg-blue-700 text-white p-8 rounded-lg mt-12 mb-8">
               <h2 className="text-2xl font-bold mb-4">Get Your Insurance Sorted Today</h2>
-              <a
-                href={CTA_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
-              >
+              <RedTrackCTALink className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors">
                 Get Business Coverage
-              </a>
+              </RedTrackCTALink>
             </div>
 
             <div className="flex flex-col sm:flex-row justify-between items-center pt-8 border-t border-gray-300">
