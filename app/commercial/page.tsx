@@ -28,7 +28,7 @@ export default function AutoLanderGG() {
       {/* { <Script
         id="redtrack-body"
         strategy="afterInteractive"
-        src="https://clk.theinsuranceguardian.com/unilpclick.js?attribution=lastpaid&cookiedomain=&cookieduration=90&defaultcampaignid=69418b8384e311b88682939b&regviewonce=false"
+        src="https://clk.theinsuranceguardian.com/unilpclick.js?attribution=lastpaid&cookiedomain=&cookieduration=90&defaultcampaignid=66713083fe6fc10001949149&regviewonce=false"
       /> */}
       <div className="min-h-screen bg-white">
       {/* Background Sections */}
