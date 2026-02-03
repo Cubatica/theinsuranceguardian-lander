@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The Insurance Guardian.com - Reliable Auto Insurance Quotes",
-  description: "Get reliable auto insurance. Compare quotes, find affordable coverage, and protect your vehicle with The Insurance Guardian.com",
-  keywords: "auto insurance, car insurance, insurance quotes, affordable insurance, compare insurance rates",
+  title: "The Insurance Guardian.com - Reliable Commercial Insurance Quotes",
+  description: "Get reliable commercial insurance. Compare quotes, find affordable business coverage, and protect your company with The Insurance Guardian.com",
+  keywords: "commercial insurance, business insurance, insurance quotes, affordable insurance, compare insurance rates",
   icons: {
     icon: [
       { url: "/theinsuranceguardian-favicon.png", type: "image/png" },

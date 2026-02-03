@@ -34,7 +34,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">3. Affiliate Disclosure</h2>
               <p className="text-gray-600 mb-4">
-                This website contains affiliate marketing links and phone numbers, which means that the operators of this site may receive commission on sales of the products or services advertised. The Insurance Guardian.com provides access to independent auto insurance services and acts as an affiliate to these services.
+                This website contains affiliate marketing links and phone numbers, which means that the operators of this site may receive commission on sales of the products or services advertised. The Insurance Guardian.com provides access to independent commercial insurance services and acts as an affiliate to these services.
               </p>
             </section>
 

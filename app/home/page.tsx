@@ -30,7 +30,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto relative z-10 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Find Affordable Auto Insurance
+              Find Affordable Commercial Insurance
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Compare quotes from top providers in minutes. Free, no-obligation quotes.
@@ -127,14 +127,14 @@ export default function Home() {
       {/* Trust Section */}
       <section id="about" className="bg-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-title">Find the Right Auto Insurance for You</h2>
+          <h2 className="section-title">Find the Right Commercial Insurance for You</h2>
           <p className="text-lg text-gray-600 mb-6">
-            The Insurance Guardian.com helps drivers compare auto insurance quotes from top providers. 
+            The Insurance Guardian.com helps business owners compare commercial insurance quotes from top providers. 
             Our free service makes it easy to find affordable coverage that meets your needs.
           </p>
           <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-blue-700 mt-8">
             <p className="text-sm text-gray-600 leading-relaxed">
-              <strong className="text-gray-800">Important:</strong> The Insurance Guardian.com is an online insurance referral site. Insurance savings are not guaranteed. We match and directly connect consumers with insurance companies and agents across the US. Our site does not provide quotes directly to consumers and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and we do not represent any specific insurance provider or automobile company. All trademarks and copyrights are the property of their respective owners. All articles on this website are for information purposes only. This website contains affiliate marketing links and phone numbers which means that the operators of this site may get paid commission on sales of the products or services advertised. The Insurance Guardian.com provides access to independent auto insurance services and acts as an affiliate to these services. Your access to this website is subject to its{' '}
+              <strong className="text-gray-800">Important:</strong> The Insurance Guardian.com is an online insurance referral site. Insurance savings are not guaranteed. We match and directly connect consumers with insurance companies and agents across the US. Our site does not provide quotes directly to consumers and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and we do not represent any specific insurance provider or automobile company. All trademarks and copyrights are the property of their respective owners. All articles on this website are for information purposes only. This website contains affiliate marketing links and phone numbers which means that the operators of this site may get paid commission on sales of the products or services advertised. The Insurance Guardian.com provides access to independent commercial insurance services and acts as an affiliate to these services. Your access to this website is subject to its{' '}
               <Link href="/terms" className="text-blue-700 underline">
                 terms of use
               </Link>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'FAQ - Frequently Asked Questions - The Insurance Guardian.com',
-  description: 'Frequently Asked Questions about auto insurance - The Insurance Guardian.com',
+  description: 'Frequently Asked Questions about commercial insurance - The Insurance Guardian.com',
 };
 
 export default function FAQPage() {
@@ -15,7 +15,7 @@ export default function FAQPage() {
       <div className="min-h-screen bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 py-16">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-700 mb-4">Frequently Asked Questions</h1>
-          <p className="text-lg text-gray-600 mb-12">Find answers to common questions about auto insurance.</p>
+          <p className="text-lg text-gray-600 mb-12">Find answers to common questions about commercial insurance.</p>
           
           <FAQAccordion />
 

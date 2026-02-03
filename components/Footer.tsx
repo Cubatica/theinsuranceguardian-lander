@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <div>
           <h3 className="text-yellow-400 font-semibold mb-4 text-lg">The Insurance Guardian</h3>
-          <p className="text-gray-300">Your trusted source for auto insurance quotes.</p>
+          <p className="text-gray-300">Your trusted source for commercial insurance quotes.</p>
         </div>
         <div>
           <h3 className="text-yellow-400 font-semibold mb-4 text-lg">Quick Links</h3>
@@ -69,7 +69,7 @@ export default function Footer() {
       <div className="border-t border-white/20 pt-6 text-center text-gray-400 text-sm">
         <p>&copy; 2025 The Insurance Guardian.com. All rights reserved.</p>
         <p className="mt-2 text-xs">
-          The Insurance Guardian.com is an online insurance referral site. Insurance savings are not guaranteed. We match and directly connect consumers with insurance companies and agents across the US. Our site does not provide quotes directly to consumers and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and we do not represent any specific insurance provider or automobile company. This website contains affiliate marketing links and phone numbers which means that the operators of this site may get paid commission on sales of the products or services advertised. The Insurance Guardian.com provides access to independent auto insurance services and acts as an affiliate to these services. Your access to this website is subject to its{' '}
+          The Insurance Guardian.com is an online insurance referral site. Insurance savings are not guaranteed. We match and directly connect consumers with insurance companies and agents across the US. Our site does not provide quotes directly to consumers and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and we do not represent any specific insurance provider or automobile company. This website contains affiliate marketing links and phone numbers which means that the operators of this site may get paid commission on sales of the products or services advertised. The Insurance Guardian.com provides access to independent commercial insurance services and acts as an affiliate to these services. Your access to this website is subject to its{' '}
           <Link href="/terms" className="underline hover:text-yellow-400">
             terms of use
           </Link>
