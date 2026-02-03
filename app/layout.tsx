@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import RedTrackScripts from "@/components/RedTrackScripts";
+import GlobalRedTrackScripts from "@/components/GlobalRedTrackScripts";
 
 export const metadata: Metadata = {
   title: "The Insurance Guardian.com - Reliable Commercial Insurance Quotes",
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <RedTrackScripts />
+        <GlobalRedTrackScripts />
         {children}
       </body>
     </html>
