@@ -8,25 +8,27 @@ export default function BlogLayout({
   children: React.ReactNode;
 }) {
   useEffect(() => {
-    // Load RedTrack script so CTA clicks (clk.theinsuranceguardian.com/click) are tracked
+    // RedTrack head script (same as commercial layout)
     // Note: ERR_BLOCKED_BY_ORB errors may appear in console when script makes XHR request.
-    // This is expected and occurs because RedTrack server doesn't send proper CORS headers.
-    const script = document.createElement('script');
-    script.src = 'https://clk.theinsuranceguardian.com/track.js?rtkcmpid=6949ceb10ee5f12c0fba2272';
-    script.async = true;
-    script.id = 'redtrack-head';
+    const headScript = document.createElement('script');
+    headScript.src = 'https://clk.theinsuranceguardian.com/track.js?rtkcmpid=6949ceb10ee5f12c0fba2272';
+    headScript.async = true;
+    headScript.id = 'redtrack-head';
+    headScript.onerror = () => {};
+    document.head.appendChild(headScript);
 
-    script.onerror = () => {
-      // Script failed to load - tracking will fall back to URL parameters if available
-    };
-
-    document.head.appendChild(script);
+    // RedTrack body script (same as commercial page - for CTA click tracking)
+    const bodyScript = document.createElement('script');
+    bodyScript.id = 'redtrack-body';
+    bodyScript.src = 'https://clk.theinsuranceguardian.com/unilpclick.js?attribution=lastpaid&cookiedomain=&cookieduration=90&defaultcampaignid=69418b8384e311b88682939b&regviewonce=false';
+    bodyScript.async = true;
+    document.body.appendChild(bodyScript);
 
     return () => {
-      const existingScript = document.getElementById('redtrack-head');
-      if (existingScript) {
-        existingScript.remove();
-      }
+      const existingHead = document.getElementById('redtrack-head');
+      if (existingHead) existingHead.remove();
+      const existingBody = document.getElementById('redtrack-body');
+      if (existingBody) existingBody.remove();
     };
   }, []);
 
