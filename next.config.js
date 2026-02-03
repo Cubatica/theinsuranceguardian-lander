@@ -6,7 +6,7 @@ const nextConfig = {
     domains: [],
     unoptimized: true, // Required for static export
   },
-  trailingSlash: false, // Cloudflare Pages works better without trailing slashes
+  trailingSlash: true, // Required: Cloudflare Pages does not support 200 rewrites; static dirs use /path/index.html
 }
 
 module.exports = nextConfig

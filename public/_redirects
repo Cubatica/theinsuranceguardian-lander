@@ -1,29 +1,18 @@
-# Cloudflare Pages redirects for Next.js static export
-# Explicit rules avoid redirect loops (e.g. /blog vs /blog/)
-/blog    /blog.html    200
-/blog/   /blog.html    200
-/faq     /faq.html    200
-/faq/    /faq.html    200
-/home    /home.html    200
-/home/   /home.html    200
-/commercial    /commercial.html    200
-/commercial/   /commercial.html    200
-/auto    /auto.html    200
-/auto/   /auto.html    200
-/terms   /terms.html    200
-/terms/  /terms.html    200
-/privacy /privacy.html  200
-/privacy/ /privacy.html 200
-
-# Blog post routes (no trailing slash in Next export)
-/blog/commercial-van-insurance    /blog/commercial-van-insurance.html    200
-/blog/truck-insurance-wont-pay    /blog/truck-insurance-wont-pay.html    200
-/blog/contractor-insurance-complete    /blog/contractor-insurance-complete.html    200
-/blog/landscapers-hidden-risks    /blog/landscapers-hidden-risks.html    200
-/blog/barbershop-insurance    /blog/barbershop-insurance.html    200
-/blog/plumbers-insurance    /blog/plumbers-insurance.html    200
-/blog/electrician-fleet-insurance    /blog/electrician-fleet-insurance.html    200
-
-# Fallback: SPA-style for client-side routes (only if no rule above matched)
-/*    /index.html    200
+# Cloudflare Pages: only 301/302 supported (no 200 rewrites).
+# With trailingSlash: true, Next exports /blog/index.html so /blog/ serves automatically.
+# Redirect no-slash to slash once so the static file is served (no loop).
+/blog    /blog/    301
+/faq     /faq/     301
+/home    /home/    301
+/commercial    /commercial/    301
+/auto    /auto/    301
+/terms   /terms/   301
+/privacy /privacy/ 301
+/blog/commercial-van-insurance    /blog/commercial-van-insurance/    301
+/blog/truck-insurance-wont-pay    /blog/truck-insurance-wont-pay/    301
+/blog/contractor-insurance-complete    /blog/contractor-insurance-complete/    301
+/blog/landscapers-hidden-risks    /blog/landscapers-hidden-risks/    301
+/blog/barbershop-insurance    /blog/barbershop-insurance/    301
+/blog/plumbers-insurance    /blog/plumbers-insurance/    301
+/blog/electrician-fleet-insurance    /blog/electrician-fleet-insurance/    301
 
