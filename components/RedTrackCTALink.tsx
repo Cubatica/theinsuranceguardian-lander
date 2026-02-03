@@ -1,5 +1,7 @@
 'use client';
 
+import { useState, useEffect, useRef } from 'react';
+
 const CLICK_URL = 'https://clk.theinsuranceguardian.com/click';
 
 function getCookie(name: string): string {
@@ -8,6 +10,13 @@ function getCookie(name: string): string {
   const parts = value.split('; ' + name + '=');
   if (parts.length === 2) return parts.pop()?.split(';').shift() ?? '';
   return '';
+}
+
+function buildClickUrl(baseUrl: string, clickid: string): string {
+  const url = new URL(baseUrl);
+  url.searchParams.set('clickid', clickid);
+  url.searchParams.set('rtkck', String(Math.round(Date.now() / 1000)));
+  return url.toString();
 }
 
 type Props = {
@@ -25,10 +34,38 @@ export default function RedTrackCTALink({
   target = '_blank',
   rel = 'noopener noreferrer',
 }: Props) {
+  const [resolvedHref, setResolvedHref] = useState(href);
+  const cancelled = useRef(false);
+
+  useEffect(() => {
+    cancelled.current = false;
+    const clickid = getCookie('rtkclickid-store');
+    if (clickid) {
+      setResolvedHref(buildClickUrl(href, clickid));
+      return () => {
+        cancelled.current = true;
+      };
+    }
+    const deadline = Date.now() + 2000;
+    const check = () => {
+      if (cancelled.current) return;
+      const c = getCookie('rtkclickid-store');
+      if (c) {
+        setResolvedHref(buildClickUrl(href, c));
+        return;
+      }
+      if (Date.now() < deadline) requestAnimationFrame(check);
+    };
+    const t = requestAnimationFrame(check);
+    return () => {
+      cancelled.current = true;
+      cancelAnimationFrame(t);
+    };
+  }, [href]);
+
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     let clickid = getCookie('rtkclickid-store');
-    // track.js sets cookie after XHR returns; if user clicks fast, wait once for it
     if (!clickid) {
       const waitForCookie = (): Promise<string> =>
         new Promise((resolve) => {
@@ -41,31 +78,25 @@ export default function RedTrackCTALink({
           requestAnimationFrame(check);
         });
       waitForCookie().then((c) => {
-        clickid = c;
-        doNavigate(clickid);
+        if (c) {
+          const url = buildClickUrl(href, c);
+          if (target === '_blank') window.open(url, '_blank', rel);
+          else window.location.href = url;
+        } else {
+          if (target === '_blank') window.open(href, '_blank', rel);
+          else window.location.href = href;
+        }
       });
     } else {
-      doNavigate(clickid);
-    }
-  };
-
-  const doNavigate = (clickid: string) => {
-    const rtkck = Math.round(Date.now() / 1000);
-    const url = new URL(href);
-    if (clickid) {
-      url.searchParams.set('clickid', clickid);
-      url.searchParams.set('rtkck', String(rtkck));
-    }
-    if (target === '_blank') {
-      window.open(url.toString(), '_blank', rel);
-    } else {
-      window.location.href = url.toString();
+      const url = buildClickUrl(href, clickid);
+      if (target === '_blank') window.open(url, '_blank', rel);
+      else window.location.href = url;
     }
   };
 
   return (
     <a
-      href={href}
+      href={resolvedHref}
       onClick={handleClick}
       target={target}
       rel={rel}

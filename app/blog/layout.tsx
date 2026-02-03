@@ -8,11 +8,10 @@ export default function BlogLayout({
   children: React.ReactNode;
 }) {
   useEffect(() => {
-    // RedTrack head script (same as commercial layout)
-    // Note: ERR_BLOCKED_BY_ORB errors may appear in console when script makes XHR request.
+    // RedTrack script - track.js
     const headScript = document.createElement('script');
+    headScript.type = 'text/javascript';
     headScript.src = 'https://clk.theinsuranceguardian.com/track.js?rtkcmpid=66713083fe6fc10001949149';
-    headScript.async = true;
     headScript.id = 'redtrack-head';
     headScript.onerror = () => {};
     document.head.appendChild(headScript);

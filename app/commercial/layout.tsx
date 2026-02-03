@@ -8,20 +8,12 @@ export default function AutoLanderGGLayout({
   children: React.ReactNode;
 }) {
   useEffect(() => {
-    // Load RedTrack script directly to avoid Next.js Script component error logging
-    // Note: ERR_BLOCKED_BY_ORB errors may appear in console when script makes XHR request.
-    // This is expected and occurs because RedTrack server doesn't send proper CORS headers.
-    // The script has fallback logic to use rtkcid from URL if XHR fails.
+    // RedTrack script - track.js
     const script = document.createElement('script');
+    script.type = 'text/javascript';
     script.src = 'https://clk.theinsuranceguardian.com/track.js?rtkcmpid=66713083fe6fc10001949149';
-    script.async = true;
     script.id = 'redtrack-head';
-    
-    // Silently handle script loading errors
-    script.onerror = () => {
-      // Script failed to load - tracking will fall back to URL parameters if available
-    };
-    
+    script.onerror = () => {};
     document.head.appendChild(script);
     
     // Cleanup on unmount
