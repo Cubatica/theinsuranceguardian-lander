@@ -1,7 +1,29 @@
 # Cloudflare Pages redirects for Next.js static export
-# All routes should serve their corresponding HTML files
+# Explicit rules avoid redirect loops (e.g. /blog vs /blog/)
 /blog    /blog.html    200
+/blog/   /blog.html    200
+/faq     /faq.html    200
+/faq/    /faq.html    200
+/home    /home.html    200
+/home/   /home.html    200
+/commercial    /commercial.html    200
+/commercial/   /commercial.html    200
+/auto    /auto.html    200
+/auto/   /auto.html    200
+/terms   /terms.html    200
+/terms/  /terms.html    200
+/privacy /privacy.html  200
+/privacy/ /privacy.html 200
 
-# Fallback for client-side routing (if needed)
-/*    /index.html   200
+# Blog post routes (no trailing slash in Next export)
+/blog/commercial-van-insurance    /blog/commercial-van-insurance.html    200
+/blog/truck-insurance-wont-pay    /blog/truck-insurance-wont-pay.html    200
+/blog/contractor-insurance-complete    /blog/contractor-insurance-complete.html    200
+/blog/landscapers-hidden-risks    /blog/landscapers-hidden-risks.html    200
+/blog/barbershop-insurance    /blog/barbershop-insurance.html    200
+/blog/plumbers-insurance    /blog/plumbers-insurance.html    200
+/blog/electrician-fleet-insurance    /blog/electrician-fleet-insurance.html    200
+
+# Fallback: SPA-style for client-side routes (only if no rule above matched)
+/*    /index.html    200
 
